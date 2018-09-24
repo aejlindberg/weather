@@ -1,0 +1,58 @@
+
+body {
+  background-color: #73BFB8;
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  color: #0B5563;
+  font-size: 52px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sunImage {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.sunImage img {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  line-height: 2;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cityDiv {
+  text-align: center;
+  font-size: 40px;
+}
+
+#weatherDiv {
+  text-align: right;
+  color: #6A0F49;
+  font-size: 26px;
+  padding: 20px;
+}
+
+#tempDiv {
+  text-align: left;
+  color: #FEC601;
+  font-size: 40px;
+  padding: 20px;
+}
