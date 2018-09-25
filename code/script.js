@@ -4,7 +4,7 @@ fetch("http://api.openweathermap.org/data/2.5/weather?q=Stockholm,Sweden&units=m
 }).then((data) => {
   const cityName = data.name.toUpperCase()
   const myTemperature = data.main.temp.toFixed(1)
-  const myWeather = data.weather[0].description.toUpperCase()
+  const myWeather = data.weather[0].description
 
   document.getElementById("cityDiv").innerHTML = cityName
   document.getElementById("tempDiv").innerHTML = myTemperature + ' \xB0'
